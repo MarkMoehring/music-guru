@@ -1,3 +1,42 @@
 * {
     background-color: greenyellow;
 }
+
+#members {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+
+}
+
+.column {
+    margin: 0;
+    border: 12px;
+    background-color: blueviolet;
+    width: 20%;
+    height: 600px;
+
+}
+
+#paired {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+#worthy {
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    align-items: flex-end;
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: greenyellow;
+    
+}
+
+#worthy-header {
+    background-color: black;
+}
